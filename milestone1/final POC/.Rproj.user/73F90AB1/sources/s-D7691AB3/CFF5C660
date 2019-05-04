@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1532605809745.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "CFF5C660",
+    "lastKnownWriteTime" : 1532354809,
+    "last_content_update" : 1532354809,
+    "path" : "D:/06_Master's degree/04.CLU MSIT/04.courses/IT-531-01 Data mining/01_group project/IT531/Tweet.R",
+    "project_path" : "Tweet.R",
+    "properties" : {
+        "cursorPosition" : "4,31",
+        "scrollLine" : "0",
+        "source_window_id" : ""
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

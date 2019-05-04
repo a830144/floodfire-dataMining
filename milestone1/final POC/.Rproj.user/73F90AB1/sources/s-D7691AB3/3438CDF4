@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1532605868213.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3438CDF4",
+    "lastKnownWriteTime" : 1532354812,
+    "last_content_update" : 1532354812,
+    "path" : "D:/06_Master's degree/04.CLU MSIT/04.courses/IT-531-01 Data mining/01_group project/IT531/decisionTree.R",
+    "project_path" : "decisionTree.R",
+    "properties" : {
+        "cursorPosition" : "11,103",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

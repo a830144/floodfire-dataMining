@@ -1,0 +1,13 @@
+spambase <- read.csv('C:/Users/Hardi/Desktop/spambase.data', header = FALSE)
+install.packages("rpart")
+library(rpart)
+set.seed(1234)
+ind <- sample(2, nrow(spambase), replace=TRUE, prob=c(0.9, 0.1))
+trainData <- spambase[ind==1,]
+testData <- spambase[ind== 2,]
+myFormula <- spambase$V58~spambase$V1+spambase$V2+spambase$V3+spambase$V4+spambase$V5+spambase$V6+spambase$V7+spambase$V8+spambase$V9+spambase$V10+spambase$V11+spambase$V12+spambase$V13+spambase$V14+spambase$V15+spambase$V16+spambase$V17+spambase$V18+spambase$V19+spambase$V20+spambase$V21+spambase$V22+spambase$V23+spambase$V24+spambase$V25+spambase$V26+spambase$V27+spambase$V28+spambase$V29+spambase$V30+spambase$V31+spambase$V32+spambase$V33+spambase$V34+spambase$V35+spambase$V36+spambase$V37+spambase$V38+spambase$V39+spambase$V40+spambase$V41+spambase$V42+spambase$V43+spambase$V44+spambase$V45+spambase$V46+spambase$V47+spambase$V48+spambase$V49+spambase$V50+spambase$V51+spambase$V52+spambase$V53+spambase$V54+spambase$V55+spambase$V56+spambase$V57
+spambase_rpart <- rpart(myFormula, data = trainData, control = rpart.control(minsplit = 10))
+printcp(spambase_rpart) 
+print(spambase_rpart)
+plot(spambase_rpart)
+text(spambase_rpart, use.n=T)
